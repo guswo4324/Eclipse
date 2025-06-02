@@ -1,5 +1,7 @@
 package practice.sec11;
 
+//중복 없는 로또 번호
+
 public class Lotto1 {
 
 	public static void main(String[] args) {

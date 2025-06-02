@@ -13,7 +13,7 @@ import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 
 /**
- * Servlet implementation class BoradController
+ * @Servlet implementation class BoradController
  */
 @WebServlet("/board/*")
 public class BoardController extends HttpServlet {

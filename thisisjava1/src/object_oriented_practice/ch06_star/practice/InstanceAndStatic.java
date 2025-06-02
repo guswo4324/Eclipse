@@ -1,4 +1,4 @@
-package object_oriented_practice.ch06_star;
+package object_oriented_practice.ch06_star.practice;
 
 public class InstanceAndStatic {
 	//인스턴스 변수

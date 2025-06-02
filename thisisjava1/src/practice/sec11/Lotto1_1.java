@@ -1,5 +1,7 @@
 package practice.sec11;
 
+//로또 번호 추출(중복가능, 임의의 수 출력)
+
 public class Lotto1_1 {
 
 	public static void main(String[] args) {

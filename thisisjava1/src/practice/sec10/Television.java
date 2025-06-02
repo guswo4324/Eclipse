@@ -8,7 +8,7 @@ class Television {
 	int volume;
 
 	
-	boolean powerOnOff =true;
+	boolean powerOnOff = true;
 
 }
 
