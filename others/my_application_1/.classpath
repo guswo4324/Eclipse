@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-17">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="src"/>
+<<<<<<< HEAD:thisisjava1/.classpath
+	<classpathentry kind="lib" path="C:/Users/82108/Downloads/ojdbc8.jar"/>
+	<classpathentry kind="lib" path="C:/Users/82108/Downloads/lombok.jar"/>
+=======
+	<classpathentry kind="lib" path="D:/Java/others/my_lib2/dist1/my_lib.jar"/>
+>>>>>>> 352871584068a92b0ecacf12f619261443fbe7dd:others/my_application_1/.classpath
+	<classpathentry kind="output" path="bin"/>
+</classpath>

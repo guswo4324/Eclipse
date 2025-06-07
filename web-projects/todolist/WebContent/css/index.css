@@ -1,0 +1,157 @@
+@charset "UTF-8";
+
+h1 {
+	text-align: center;
+}
+
+h2 {
+	text-align: center;
+}
+
+
+.App {
+	max-width: 500px;
+
+	margin-top: 50px;
+	margin: 0 auto;
+	padding: 20px;
+	
+	background-color: #e9ecef;
+	
+	border-radius: 8px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* 폼 */
+.add-form {
+	display: flex;
+	margin-bottom: 20px;
+}
+
+.add-form input {
+	 flex: 1;
+	 padding: 10px;
+	 font-size: 16px;
+	 
+	 border: 1px solid rgb(223, 227, 232);
+	 border-radius: 4px 0 0 4px;
+	 outline: none;
+}
+
+.add-form button {
+	padding: 10px 15px;
+	
+	color: white;
+	font-size: 16px;
+	background-color: #4caf50;
+	
+	border: none;
+	border-radius: 0 4px 4px 0;
+	cursor: pointer;
+}
+
+
+/* 필터 */
+.filters {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 20px;
+}
+
+.filters button {
+	background-color: #f1f1f1;
+    color: #333;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin: 0 5px;
+    padding: 8px 12px;
+}
+
+.filters button.active {
+    background-color: #4caf50;
+    color: white;
+    border-color: #4caf50;
+}
+
+
+/* 리스트 */
+.todo-list {
+	list-style-type: none;
+	padding: 0;
+}
+
+.checkbox {
+    margin-right: 10px;
+    cursor: pointer;
+    width: 18px;
+    height: 18px;
+}
+
+.todo {
+	flex: 1;
+}
+
+.todo-item {	
+	display: flex;
+	align-items: center;
+
+	padding: 10px 15px;
+	margin-bottom: 8px;
+	gap: 10px;
+		
+	background-color: rgb(223, 227, 232);
+	border-radius: 4px;
+	cursor: pointer;
+	transition: all 0.3s;
+}
+	
+.todo-item.completed{
+	text-decoration: line-through;
+	color: gray;
+}
+
+.action-box {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	margin-left: auto;
+}
+
+.priority-badge {
+    padding: 3px 10px;
+    border-radius: 12px;
+    
+    font-size: 12px;
+    color: white;
+}
+
+.star-btn {
+	margin-left: 10px;
+	padding: 0 5px;
+    border: none;
+ 
+    font-size: 18px;
+    color: #ddd;
+    background: #f44336;
+    
+    cursor: pointer;
+}
+
+.star-btn.active {
+    color: #ff9800;
+}
+
+.delete-btn {
+	padding: 5px 8px;
+	font-size: 14px;
+	color: white;
+	background-color: red;
+	
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.delete-btn:hover {
+	background-color: rgba(244, 67, 54, 0.1);
+}
